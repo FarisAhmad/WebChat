@@ -12,7 +12,6 @@ public class Encode {
 		try {
 			encri(senha);
 		} catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
