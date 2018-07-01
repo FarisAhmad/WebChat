@@ -7,7 +7,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-import javax.inject.Singleton;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -49,7 +48,7 @@ public class Server {
 		for (Session session : Sessions.getSessions()) {
 			if(session.isOpen()) {
 			System.out.println("Send to : " + session.getId());
-			session.getAsyncRemote().sendText(msg);// assíncrono msg
+			session.getAsyncRemote().sendText(msg);// assï¿½ncrono msg
 			}
 		}
 		
