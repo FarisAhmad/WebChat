@@ -1,7 +1,6 @@
 package br.com.test;
 
-
-
+// Testando o git commit
 public class Converter {
 	public static String escapeHTML(String s) {
 	    StringBuilder out = new StringBuilder(Math.max(16, s.length()));
@@ -22,40 +21,40 @@ public class Converter {
 
 	public static void main(String[] args) {
 		
-		String texto1 = "Vão obter várias copias pra o desenvolvimento, pro favor atenar as condições para o a realização das respectivas demandas.";
+		String texto1 = "Vï¿½o obter vï¿½rias copias pra o desenvolvimento, pro favor atenar as condiï¿½ï¿½es para o a realizaï¿½ï¿½o das respectivas demandas.";
 		String t = "<div style=\"width:680px; padding:0 15px 15px 15px;  background:#058ce1;\">\r\n" + 
 				"			<!--<img src=\"https://cadastrodeusuario.caixa.gov.br/sicdu/images/alt_img_caixa.gif\" width=\"136\" height=\"31\" /> -->\r\n" + 
 				"			<img src=\"#URL_BASE#/img/logo_caixa.png\" width=\"136\" height=\"31\">\r\n" + 
 				"			<div style=\"background:#E5EBF8; color:#000; padding:5px; text-align:justify; font-family:Arial, Helvetica, sans-serif; font-size:11px;\">\r\n" + 
-				"				<b>ATENÇÃO: MENSAGEM AUTOMÁTICA. FAVOR NÃO RESPONDER NEM ENCAMINHAR MENSAGEM PARA ESTE REMETENTE.</b>\r\n" + 
-				"				<br><br>A/C Èáâê{}?<br><b>#NOME_USUARIO#</b><br>\r\n" + 
-				"				<p>Esta mensagem foi encaminhada para orientá-lo a respeito do cadastramento/modificação de sua senha para acesso ao(s) sistema(s)/serviço(s) listado(s) abaixo.</p>\r\n" + 
-				"				<p>Leia com atenção as orientações antes de efetuar o cadastramento/modificação da senha, a qual deve ser elaborada, obrigatoriamente, de acordo com os critérios que seguem</p>\r\n" + 
+				"				<b>ATENï¿½ï¿½O: MENSAGEM AUTOMï¿½TICA. FAVOR Nï¿½O RESPONDER NEM ENCAMINHAR MENSAGEM PARA ESTE REMETENTE.</b>\r\n" + 
+				"				<br><br>A/C ï¿½ï¿½ï¿½ï¿½{}?<br><b>#NOME_USUARIO#</b><br>\r\n" + 
+				"				<p>Esta mensagem foi encaminhada para orientï¿½-lo a respeito do cadastramento/modificaï¿½ï¿½o de sua senha para acesso ao(s) sistema(s)/serviï¿½o(s) listado(s) abaixo.</p>\r\n" + 
+				"				<p>Leia com atenï¿½ï¿½o as orientaï¿½ï¿½es antes de efetuar o cadastramento/modificaï¿½ï¿½o da senha, a qual deve ser elaborada, obrigatoriamente, de acordo com os critï¿½rios que seguem</p>\r\n" + 
 				"				<ul>\r\n" + 
-				"					<li>Deve [] <> ()ter o tamanho mínimo de 8 caracteres;</li>\r\n" + 
-				"					<li>Somente caracteres alfanuméricos podem compor a senha;</li>\r\n" + 
-				"					<li>A senha deve conter no mínimo 1 (um) caractere alfabético maiúsculo </li>\r\n" + 
-				"					<li>A senha deve conter no mínimo 1 (um) caractere alfabético minúsculo (a-z);</li>\r\n" + 
-				"					<li>A senha deve conter no mínimo 1 (um) caractere numérico (0-9);</li>\r\n" + 
-				"					<li>A senha não deve conter sequenciais de teclado de 3 (três) caracteres,em qualquer direção. (ex.: qwe, asd);</li>\r\n" + 
-				"					<li>A senha não deve conter sequenciais que representem o mês ou ano correntes;</li>\r\n" + 
-				"					<li>A senha não deve conter 3 (três) caracteres ou mais idênticos consecutivos (ex.: 777, uuu);</li>\r\n" + 
-				"					<li>A senha não deve conter 3 (três) caracteres ou mais alfabéticos sucessivos (ex.: abc, klm);</li>\r\n" + 
-				"					<li>Senhas facilmente dedutíveis (com caracteres repetidos, por exemplo: 111111) não serão aceitas para concessão de acesso ao sistema;</li>\r\n" + 
-				"					<li>Evite senhas vinculadas à data de nascimento ou CPF;</li>\r\n" + 
-				"					<li>As últimas cinco senhas utilizadas não serão aceitas pelo sistema.</li>\r\n" + 
+				"					<li>Deve [] <> ()ter o tamanho mï¿½nimo de 8 caracteres;</li>\r\n" + 
+				"					<li>Somente caracteres alfanumï¿½ricos podem compor a senha;</li>\r\n" + 
+				"					<li>A senha deve conter no mï¿½nimo 1 (um) caractere alfabï¿½tico maiï¿½sculo </li>\r\n" + 
+				"					<li>A senha deve conter no mï¿½nimo 1 (um) caractere alfabï¿½tico minï¿½sculo (a-z);</li>\r\n" + 
+				"					<li>A senha deve conter no mï¿½nimo 1 (um) caractere numï¿½rico (0-9);</li>\r\n" + 
+				"					<li>A senha nï¿½o deve conter sequenciais de teclado de 3 (trï¿½s) caracteres,em qualquer direï¿½ï¿½o. (ex.: qwe, asd);</li>\r\n" + 
+				"					<li>A senha nï¿½o deve conter sequenciais que representem o mï¿½s ou ano correntes;</li>\r\n" + 
+				"					<li>A senha nï¿½o deve conter 3 (trï¿½s) caracteres ou mais idï¿½nticos consecutivos (ex.: 777, uuu);</li>\r\n" + 
+				"					<li>A senha nï¿½o deve conter 3 (trï¿½s) caracteres ou mais alfabï¿½ticos sucessivos (ex.: abc, klm);</li>\r\n" + 
+				"					<li>Senhas facilmente dedutï¿½veis (com caracteres repetidos, por exemplo: 111111) nï¿½o serï¿½o aceitas para concessï¿½o de acesso ao sistema;</li>\r\n" + 
+				"					<li>Evite senhas vinculadas ï¿½ data de nascimento ou CPF;</li>\r\n" + 
+				"					<li>As ï¿½ltimas cinco senhas utilizadas nï¿½o serï¿½o aceitas pelo sistema.</li>\r\n" + 
 				"				</ul>\r\n" + 
-				"				<p>A boa qualidade de sua senha é condição indispensável para a segurança de seu acesso, por isso, sugerimos observar as seguintes recomendações:</p>\r\n" + 
+				"				<p>A boa qualidade de sua senha ï¿½ condiï¿½ï¿½o indispensï¿½vel para a seguranï¿½a de seu acesso, por isso, sugerimos observar as seguintes recomendaï¿½ï¿½es:</p>\r\n" + 
 				"				<ul type=\"disc\">\r\n" + 
-				"					<li>A senha deve ser trocada no intervalo máximo de 100 dias;</li>\r\n" + 
-				"					<li>Mais de cinco tentativas com senha inválida revoga o direito de acesso ao sistema.</li>\r\n" + 
+				"					<li>A senha deve ser trocada no intervalo mï¿½ximo de 100 dias;</li>\r\n" + 
+				"					<li>Mais de cinco tentativas com senha invï¿½lida revoga o direito de acesso ao sistema.</li>\r\n" + 
 				"				</ul>\r\n" + 
 				"				<p><b>SEU IDENTIFICADOR: </b>#EMAIL_USUARIO#</p>\r\n" + 
 				"				\r\n" + 
 				"					#PERFIS#\r\n" + 
 				"				\r\n" + 
 				"				<p>\r\n" + 
-				"					<b>CÓDIGO DE ATIVAÇÃO: </b> \r\n" + 
+				"					<b>Cï¿½DIGO DE ATIVAï¿½ï¿½O: </b> \r\n" + 
 				"					<font style=\"letter-spacing: 1.5px;\" size=\"4px\" face=\"tahoma\">#TOKEN#</font>\r\n" + 
 				"				</p>\r\n" + 
 				"				<p>\r\n" + 
@@ -63,26 +62,26 @@ public class Converter {
 				"					<br>\r\n" + 
 				"					<a href=\"#URL_CONFIRMACAO#\">Clique Aqui</a>\r\n" + 
 				"				</p>\r\n" + 
-				"				<p>Para sua segurança inutilize este comunicado após a leitura e seu acesso inicial.</p>\r\n" + 
+				"				<p>Para sua seguranï¿½a inutilize este comunicado apï¿½s a leitura e seu acesso inicial.</p>\r\n" + 
 				"				<p>\r\n" + 
-				"					O conteúdo desta mensagem é de uso restrito e confidencial, \r\n" + 
-				"					com sigilo protegido por lei. As informações nela contidas não poderão ser divulgadas sem \r\n" + 
-				"					prévia autorização escrita. Caso você não seja o destinatário desta mensagem, \r\n" + 
+				"					O conteï¿½do desta mensagem ï¿½ de uso restrito e confidencial, \r\n" + 
+				"					com sigilo protegido por lei. As informaï¿½ï¿½es nela contidas nï¿½o poderï¿½o ser divulgadas sem \r\n" + 
+				"					prï¿½via autorizaï¿½ï¿½o escrita. Caso vocï¿½ nï¿½o seja o destinatï¿½rio desta mensagem, \r\n" + 
 				"					solicitamos que a apague imediatamente e comunique ao remetente. \r\n" + 
-				"					Alertamos que este conteúdo transitou por rede pública de comunicações e, \r\n" + 
-				"					portanto, está sujeito aos riscos inerentes a essa forma de comunicação. \r\n" + 
-				"					A Caixa Econômica Federal não se responsabiliza por possíveis conclusões, \r\n" + 
-				"					opiniões ou informações que não se relacionem com sua linha de negócios, \r\n" + 
+				"					Alertamos que este conteï¿½do transitou por rede pï¿½blica de comunicaï¿½ï¿½es e, \r\n" + 
+				"					portanto, estï¿½ sujeito aos riscos inerentes a essa forma de comunicaï¿½ï¿½o. \r\n" + 
+				"					A Caixa Econï¿½mica Federal nï¿½o se responsabiliza por possï¿½veis conclusï¿½es, \r\n" + 
+				"					opiniï¿½es ou informaï¿½ï¿½es que nï¿½o se relacionem com sua linha de negï¿½cios, \r\n" + 
 				"					mas que estejam contidas nesta mensagem.\r\n" + 
 				"				</p>\r\n" + 
-				"				<p style=\"text-align:right\">CAIXA ECONÔMICA FEDERAL</p>\r\n" + 
+				"				<p style=\"text-align:right\">CAIXA ECONï¿½MICA FEDERAL</p>\r\n" + 
 				"			</div>\r\n" + 
 				"		</div>";
 		System.out.println(escapeHTML(t));
 		
 		
 		//Teste do commit
-		
+		//Â HELLO WORLD
 	
 	}
 
