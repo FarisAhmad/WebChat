@@ -22,6 +22,7 @@ public class Server {
 		 
 		//this.userSessions.add(userSession);
 //		userSessions.addSession(userSession);
+		//Teste Usuarios
 		Sessions.getSessions().add(userSession);
 		
 		System.out.println(
