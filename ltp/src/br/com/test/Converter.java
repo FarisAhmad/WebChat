@@ -1,9 +1,6 @@
 package br.com.test;
 
-import java.io.UnsupportedEncodingException;
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.Charset;
+
 
 public class Converter {
 	public static String escapeHTML(String s) {
@@ -82,6 +79,10 @@ public class Converter {
 				"			</div>\r\n" + 
 				"		</div>";
 		System.out.println(escapeHTML(t));
+		
+		
+		//Teste do commit
+		
 	
 	}
 
