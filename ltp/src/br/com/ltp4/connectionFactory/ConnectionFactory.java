@@ -11,7 +11,7 @@ public class ConnectionFactory {
 	            Class.forName("oracle.jdbc.driver.OracleDriver");
 	        	
 	            return DriverManager.getConnection(
-	                    "jdbc:oracle:thin:@localhost:1521:XE", "LTP", "ltp");
+	                    "jdbc:oracle:thin:@25.75.218.192:1521:XE", "LTP", "ltp");
 	        
 	        } catch (ClassNotFoundException e) {  
 	        	System.out.println("Nao foi possivel achar o driver do banco de dados.");
